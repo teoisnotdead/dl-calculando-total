@@ -12,7 +12,6 @@ cantidadSpan.innerHTML = cantidadInicial
 valorTotal.innerHTML = valorTotalInicial
 
 botonRestar.addEventListener('click', () => {
-  console.log('click restar');
   if (cantidadInicial > 0) {
     cantidadInicial--
     cantidadSpan.innerHTML = cantidadInicial
@@ -21,7 +20,6 @@ botonRestar.addEventListener('click', () => {
 })
 
 botonSumar.addEventListener('click', () => {
-  console.log('click sumar');
   cantidadInicial++
   cantidadSpan.innerHTML = cantidadInicial
   valorTotal.innerHTML = precio * cantidadInicial
